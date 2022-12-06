@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: DEVELOPER_DB
+    description: <markdown_string>database
+    schema: vikas_schema
+    tables:
+      - name: US_ACCIDENTS_DATA_RAW_STAGE
+      - name: STAGE_US_DATA
